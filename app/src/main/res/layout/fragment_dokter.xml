@@ -2,16 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tugasakhir.rido.apilkasijadwaldokter.RumahSakitFragment">
+    tools:context="com.tugasakhir.rido.apilkasijadwaldokter.DokterFragment">
 
     <include
         android:id="@+id/toolbar"
-        layout="@layout/toolbar_rumah_sakit"/>
+        layout="@layout/toolbar_dokter"/>
 
     <!-- TODO: Update blank fragment layout -->
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/cardView"
         android:layout_below="@+id/toolbar"
+        android:id="@+id/cardViewDokter"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp">

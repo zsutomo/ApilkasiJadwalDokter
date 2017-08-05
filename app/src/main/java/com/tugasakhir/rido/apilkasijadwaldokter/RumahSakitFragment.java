@@ -91,7 +91,7 @@ public class RumahSakitFragment extends Fragment {
             holder.cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getActivity(), Pencarian.class);
+                    Intent intent = new Intent(getActivity(), DokterActivity.class);
                     startActivity(intent);
                 }
             });

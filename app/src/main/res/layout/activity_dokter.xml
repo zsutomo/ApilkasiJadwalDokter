@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tugasakhir.rido.apilkasijadwaldokter.RumahSakit">
+    tools:context="com.tugasakhir.rido.apilkasijadwaldokter.DokterActivity">
 
     <FrameLayout
-        android:id="@+id/fragmentContainerrumahsakit"
+        android:id="@+id/fragmentContainerdokter"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </FrameLayout>

@@ -5,20 +5,19 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RumahSakit extends AppCompatActivity {
+public class DokterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rumah_sakit);
+        setContentView(R.layout.activity_dokter);
 
         FragmentManager fm = getSupportFragmentManager();
-        Fragment fragment = fm.findFragmentById(R.id.fragmentContainerrumahsakit);
+        Fragment fragment = fm.findFragmentById(R.id.fragmentContainerdokter);
 
         if (fragment == null) {
-            fragment = new RumahSakitFragment();
-            fm.beginTransaction().add(R.id.fragmentContainerrumahsakit, fragment).commit();
+            fragment = new DokterFragment();
+            fm.beginTransaction().add(R.id.fragmentContainerdokter, fragment).commit();
         }
-
     }
 }
