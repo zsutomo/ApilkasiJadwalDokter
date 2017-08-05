@@ -25,7 +25,8 @@
         <activity android:name=".Login" />
         <activity android:name=".Pencarian" />
         <activity android:name=".Bantuan" />
-        <activity android:name=".RumahSakit"></activity>
+        <activity android:name=".RumahSakit" />
+        <activity android:name=".DokterActivity"></activity>
     </application>
 
 </manifest>
